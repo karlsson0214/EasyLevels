@@ -21,8 +21,7 @@ namespace EasyLevels
         /// </summary>
         public Crab()
         {
-            ImageName = "crab";
-            Position = new Vector2(400, 300);
+
             //ShowScore();
         }
 

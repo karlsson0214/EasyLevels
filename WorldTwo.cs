@@ -26,8 +26,8 @@ namespace EasyLevels
         private void AddContent()
         {
             var crab = new Crab();
-            Add(crab);
-            Add(new Lobster(crab));
+            Add(crab, "crab", 400, 300);
+            Add(new Lobster(crab), "lobster", 100, 100);
         }
     }
 }

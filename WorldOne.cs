@@ -26,8 +26,8 @@ namespace EasyLevels
         }
         private void AddContent()
         {
-            Add(new Crab());
-            Add(new Worm());
+            Add(new Crab(), "crab", 400, 300);
+            Add(new Worm(), "worm", 600, 300);
         }
     }
 }

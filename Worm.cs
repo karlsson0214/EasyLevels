@@ -13,8 +13,7 @@ namespace EasyLevels
 
         public Worm()
         {
-            ImageName = "worm";
-            Position = new Vector2(600, 300);
+
 
         }
         public override void Update(GameTime gameTime)
