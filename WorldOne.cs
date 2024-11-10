@@ -12,20 +12,9 @@ namespace EasyLevels
 
         public WorldOne() : base(800, 600)
         {
-            Load();
-            AddContent();
-        }
-
-        private void Load()
-        {
-            GameArt.Add("crab");
-            GameArt.Add("worm");
-            GameArt.Add("sand2");
-
             BackgroundTileName = "sand2";
-        }
-        private void AddContent()
-        {
+
+            // Add game objects.
             Add(new Crab(), "crab", 400, 300);
             Add(new Worm(), "worm", 600, 300);
         }

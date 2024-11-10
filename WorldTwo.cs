@@ -11,20 +11,9 @@ namespace EasyLevels
     {
         public WorldTwo() : base(800, 600)
         {
-            Load();
-            AddContent();
-        }
-
-        private void Load()
-        {
-            GameArt.Add("crab");
-            GameArt.Add("lobster");
-            GameArt.Add("sand2");
-
             BackgroundTileName = "sand2";
-        }
-        private void AddContent()
-        {
+
+            // Add game objects.
             var crab = new Crab();
             Add(crab, "crab", 400, 300);
             Add(new Lobster(crab), "lobster", 100, 100);
